@@ -59,6 +59,13 @@ class EventDashboard extends Component {
 		isOpen: false,
 	};
 
+	// handleIsOpenToggle=this.handleIsOpenToggle.bind(this)
+	// handleIsOpenToggle = () => {
+	// 	this.setState((prevState) => ({
+	// 		isOpen: !prevState.isOpen
+	// 	}));
+	// };
+
 	handleIsOpenToggle = () => {
 		this.setState(({ isOpen }) => ({
 			isOpen: !isOpen,
